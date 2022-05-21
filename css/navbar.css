@@ -1,0 +1,87 @@
+.sec{
+    height: 500vh;
+}
+
+#logo {
+    width: 125px;
+    margin-left: 46px;
+  }
+  
+  #navcol-1 {
+    padding-right: 57px;
+    font-family: Quicksand, sans-serif;
+    font-weight: 600;
+  }
+  
+  #akun {
+    width: 38px;
+    height: 38px;
+  }
+  
+  @media (max-width: 768px) {
+    #nama-acc {
+      display: none;
+    }
+  }
+  
+  #navbar {
+    background: #d3d3d3;
+  }
+  
+  body {
+    color: rgb(255,255,255);
+  }
+  
+  #search {
+    margin-left: 68px;
+  }
+  
+  .link {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-right: 32px;
+    font-family: Quicksand, sans-serif;
+    font-weight: 400;
+    color: rgb(0,0,0);
+  }
+  
+  .link::after {
+    position: absolute;
+    content: "";
+    width: 70%;
+    height: 3px;
+    top: 100%;
+    left: 15%;
+    background: var(--bs-orange);
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+  
+  .link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  
+  .dropdown:hover {
+    font-weight: 700;
+  }
+  
+  .link {
+    font-weight: 600;
+  }
+  
+  .link:hover {
+    font-weight: 700;
+    color: var(--bs-gray-300);
+    background: #999999;
+    border-radius: 0.5rem;
+  }
+  
+  #link-home {
+    color: #000000;
+    background: #999999;
+    border-radius: 0.5rem;
+  }

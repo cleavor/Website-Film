@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,500;1,500&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+.kolom{
+    padding: 15px 25px 10px 25px;
+    background-color: black;
+}
+
+.card li{
+    list-style-type: none;
+}
+
+.card li img{
+    width: 25%;
+    height: auto;
+}
