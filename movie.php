@@ -28,7 +28,7 @@
 
     <hr>
           <img src="<?php echo $imgurl_2 ?><?php echo $movie_id->poster_path ?>">
-          <p>Title : <?php echo $movie_id->original_title ?></p>
+          <p><h1>Title : <?php echo $movie_id->original_title ?></h1></p>
           <p>Tagline : <?php echo $movie_id->tagline ?></p>
           <p>Genres : 
               <?php

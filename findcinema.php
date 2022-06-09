@@ -7,7 +7,7 @@
 <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js'></script>
 <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css' rel='stylesheet' />
 
-<div id='map' style='width: 400px; height: 300px;'></div>
+<div id='map' style='width: 600px; height: 600px;'></div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiY2xlYXZvciIsImEiOiJjbDNmY2NnYmowZWUxM2luOHhreXo4ZzJzIn0.x-HskCjhjHpo-HqrB-UX9A';
 const map = new mapboxgl.Map({
